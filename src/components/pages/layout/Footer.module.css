@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center; /* Alinha os itens horizontalmente ao centro */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    height: 100px; /* Ajuste conforme necessário */
-    background-color: powderblue;
+    height: 20vh; /* Ajuste conforme necessário */
+    background-color: black;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center; /* Alinha os itens filhos verticalmente ao centro */
+    gap: 1em;
 }
 
 .social_list {
@@ -24,25 +25,27 @@
     color: white;
 }
 
-a {
+.social_list svg {
+    font-size: 1.5em;
     color: white;
 }
 
-a:hover {
-    color: black;
+.social_list svg:hover {
+    color: blueviolet;
 }
 
-p {
-    margin: 0;
-    text-align: center; /* Alinha o texto ao centro */
+.link {
     color: white;
 }
 
 .copyright {
     margin-top: 1em;
+    margin: 0;
+    text-align: center; /* Alinha o texto ao centro */
+    color: white;
 }
 
 .copyright span {
     font-weight: bold;
-    color: black;
+    color: blueviolet;
 }

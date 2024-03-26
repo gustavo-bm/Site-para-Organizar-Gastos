@@ -8,17 +8,17 @@ function Footer() {
                 <ul className={styles.social_list} >
                     <li>
                         <a href="https://www.google.com/" target="blank">
-                            <FaFacebook />
+                            <FaFacebook className={styles.icon}/>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.google.com/" target="blank">
-                            <FaInstagram />
+                            <FaInstagram className={styles.icon}/>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.google.com/" target="blank">
-                            <FaLinkedin  />
+                            <FaLinkedin  className={styles.icon}/>
                         </a>
                     </li>
                 </ul>

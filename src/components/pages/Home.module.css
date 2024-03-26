@@ -1,0 +1,31 @@
+.container {
+  width: 100%; /* centralizar responsivamente*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha os itens filhos verticalmente ao centro */
+  justify-content: center;
+  padding: 4em;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100vw;
+  }
+}
+
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.container h1 span {
+  color: blueviolet;
+  padding: 0.2em;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.finances {
+  max-width: 50%; /* Define a largura máxima da imagem como 100% do contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+}
