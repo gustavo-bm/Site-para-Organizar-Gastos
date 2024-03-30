@@ -17,6 +17,7 @@
 
 .item {
     margin-left: 2em;
+    padding: 0.5em;
 }
 
 .item a {
@@ -26,5 +27,4 @@
 
 .item a:hover {
     color: blueviolet;
-    font-weight: bold;
 }
